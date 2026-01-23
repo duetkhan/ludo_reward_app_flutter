@@ -3,12 +3,12 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion ≥ 33
 
     defaultConfig {
         applicationId "com.duetkhan.ludo"
-        minSdkVersion 21
-        targetSdkVersion 34
+        minSdkVersion ≥ 21
+        targetSdkVersion ≥ 33
         versionCode 1
         versionName "1.0"
     }
